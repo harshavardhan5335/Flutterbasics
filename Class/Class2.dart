@@ -1,20 +1,25 @@
 class Animal{
-  String name = "";
-  String animal_sound = "";
+  String animal_name;
+  String animal_sound;
+  
+  void name (String a){
+    animal_name = a;
+  }
 
   void sound(String s){
     animal_sound=s;
   }
 
-  void display(){
-    print(name);
-    print(animal_sound);
-  }
+void display(){
+  print(animal_name);
+  print(animal_sound);
+}
 }
 
 void main(){
-  Animal dog = Animal();
-  dog.name="dog";
-  dog.animal_sound="bowbow";
-  dog.display();
+  Animal animal = Animal();
+  animal.name("German sheperd");
+  animal.sound("bowbow");
+  animal.display();
+ 
 }
