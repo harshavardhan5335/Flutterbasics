@@ -1,0 +1,11 @@
+void main() {
+  for (int count = 1; count <= 10; count++) {
+    print("Jhon");
+  }
+}
+
+void main() {
+  for (int count = 1; count <= 10; count++) {
+    print(count);
+  }
+}
